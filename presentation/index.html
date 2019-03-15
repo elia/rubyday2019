@@ -1,0 +1,401 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/nebulab.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        <section></section>
+
+        <!-- story -->
+        <section><h1>6 years ago…</h1></section>
+
+        <section data-background="/images/filippo.jpeg" data-background-size="cover"></section>
+        <section data-background="/images/speaker.jpg" data-background-size="cover"></section>
+
+        <section><h1>ONE THING</h1></section>
+
+        <!-- topic -->
+        <section data-background-color="#4F100B" data-background="/images/ruby.png" data-background-size="30%" data-background-position="50% 50%"><h2></h2></section>
+        <section data-background-color="#4F100B"><h1>WHY?</h1></section>
+        <section data-background-color="#4F100B">
+          <p>high-level, feature-rich, reliable</p>
+          <p class="fragment">precise and concise</p>
+          <p class="fragment">powerful</p>
+        </section>
+        <section data-background-color="#4F100B">
+          <p>looks gorgeous on the screen</p>
+          <p class="fragment">no fluff, just stuff</p>
+          <p class="fragment">beautiful</p>
+        </section>
+        <section data-background-color="#4F100B">
+          <p>open classes and meta-programming</p>
+          <p class="fragment">no type or var declarations</p>
+          <p class="fragment">freedom!</p>
+        </section>
+
+        <section><h1>ONE THING</h1></section>
+        <section style="text-align: left;" data-background="/images/collector.jpg" data-background-size="50%" data-background-position="right">
+          We're standing on
+          <br>the shoulders of
+          <br><span class="fragment">Garbage Collectors</span>
+        </section>
+        <!-- <section style="text-align: left;" data-background="/images/collector.jpg" data-background-size="50%" data-background-position="right">
+          Someone
+          <br>cared enough
+          <br>to pick up
+          <br>all the dirt
+          <br>on our behalf
+        </section> -->
+        <!-- <section>
+          something we can learn to do
+          <br>we create a beautiful place
+          <br>so that we and others can
+          <br>have a good time there
+        </section>
+        <section>
+          creating something beautiful
+          <br>provides a form of love
+          <br>for everyone that can
+          <br>experience that beauty
+        </section>
+        <section>
+          that's why I care about Ruby
+          <br>and I cared so much about Opal
+          <br>during these years, I missed
+          <br>that spark of joy
+          <br>while doing frontend development
+        </section>
+        <section>
+          And I want that to reach as many people as possible,
+          so that they too, can experience this love
+        </section> -->
+
+
+        <!-- self-intro -->
+        <section data-background-color="#66BEF9" data-background="" data-background-size="30%" data-background-position="center right 20% 20%">
+          Elia Schito
+          <img src="http://nebulab.it/assets/images/public/logo_white.svg" style="height: 2em;background: transparent; vertical-align: -0.9em">
+          <!-- <br><br><br> -->
+        </section>
+
+        <!-- audience-benefit -->
+        <!-- many ppl said opal helped reduce their code, and the final bundle size
+        it's been in production for many years, with XXXk passing examples from the ruby spec
+
+        if you're experience is a great way to learn more ruby and more JS, being ruby spec
+        a giant kata that is just waiting for an implementation.” -->
+
+        <!-- <section data-background-color="#4F100B"><h1></h1></section>
+        <section><h1></h1></section>
+        <section><h1></h1></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section data-markdown data-background-color="#66BEF9">
+          <textarea data-template>
+              # 💘
+              ## Let’s have a fresh look at ruby by using it in a completely new environment
+              <small>but still retaining the years of experience, the learned skill and the fun that made us love it in the first place</small>
+          </textarea>
+        </section>
+
+
+        <section style="text-align: left;" data-markdown data-markdown data-background="https://media.giphy.com/media/3o6ZsTKlw7wmJrdJ4I/giphy.gif" data-background-size="50%" data-background-position="right">
+          <textarea data-template>
+            # 3 Things You Didn’t Know About Ruby On The Frontend.
+
+            **Elia Schito**
+
+            <small>RubyDay 2019</small>
+
+          </textarea>
+        </section>
+
+        <section style="text-align: left;" data-markdown data-background="https://upload.wikimedia.org/wikipedia/commons/5/5a/Yukihiro_Matsumoto_EuRuKo_2011.jpg" data-background-size="50%" data-background-position="right">
+          <textarea data-template>
+              ## “no one wants to program <br> in assembler anymore.”
+
+              -Matz
+          </textarea>
+        </section>
+
+        <section data-markdown data-background-color="#66BEF9">
+          <textarea data-template>
+              ## “no one ~~wants to program in~~ can avoid ~~assembler~~ javascript anymore.”
+
+              -Matz
+          </textarea>
+        </section>
+
+        <section data-markdown data-background="https://images.unsplash.com/photo-1521737451536-00a86f630f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3150&q=80">
+          <textarea data-template>
+            # Meet Joe
+          </textarea>
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
+            <p class="fragment">Done Rails for 5+ years</p>
+            <p class="fragment">Can do decent TDD</p>
+            <p class="fragment">Can setup Capistrano</p>
+            <p class="fragment">Enough jQuery to survive</p>
+          </textarea>
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
+            <p class="fragment">Rather good at Rails</p>
+            <p class="fragment">Can fix some HTML/CSS</p>
+            <p class="fragment">Prefers the backend</p>
+            <p class="fragment">Knows his way around DBs</p>
+          </textarea>
+        </section>
+
+        <section data-markdown data-background-color="#66BEF9">
+          <textarea data-template>
+              ## Joe has to to do some Javascript...
+          </textarea>
+        </section>
+
+        <section data-markdown data-background="https://media.giphy.com/media/WJK2SABYwvEvm/giphy.gif">
+        </section>
+
+        <section data-markdown data-background-color="#66BEF9">
+          <textarea data-template>
+              # 💘
+              ## Let’s have a fresh look at ruby by using it in a completely new environment
+              <small>but still retaining the years of experience, the learned skill and the fun that made us love it in the first place</small>
+          </textarea>
+        </section>
+
+        <section data-background="https://i.ibb.co/8s2R86h/Schermata-2019-03-07-alle-10-58-05.png" data-background-size="60%" data-background-color="#A0B0DF">
+        </section> -->
+
+        <!-- <section data-markdown data-background="https://secure.gravatar.com/avatar/88298620949a6534d403da2e356c9339?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-org-420.png" data-background-size="20%">
+          <textarea data-template>
+              ## Opal is a Ruby to JavaScript <br> source-to-source compiler.
+          </textarea>
+        </section>
+
+        <section data-markdown data-background-color="#66BEF9">
+          <textarea data-template>
+              # 3K
+              GitHub Stars
+          </textarea>
+        </section>
+
+        <section data-markdown data-background-color="#66BEF9">
+          <textarea data-template>
+              # 11K
+               Ruby spec examples
+          </textarea>
+        </section>
+
+        <section data-markdown data-background-color="#66BEF9">
+          <textarea data-template>
+              # 100K
+              Downloads from RubyGems
+          </textarea>
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
+            ## It's Ruby
+            <p class="fragment">Method missing & blocks</p>
+            <p class="fragment">Require & Autoload</p>
+            <p class="fragment">Classes & singleton class</p>
+            <p class="fragment">Modules & mixins</p>
+            <p class="fragment">Enumerable & Struct</p>
+            <p class="fragment">(much more)</p>
+          </textarea>
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
+            ## It's fast
+            <p class="fragment">bridged classes → <strong>Array String RegExp Function Boolean Date</strong></p>
+            <p class="fragment">class Hierarchy → <strong>.prototype.chain</strong></p>
+            <p class="fragment">.methods → <strong>$functions()</strong></p>
+            <p class="fragment">@instance_variables → <strong>this.properties</strong></p>
+            <p class="fragment">Constant::Lookup → <strong>.prototype.chain</strong></p>
+          </textarea>
+        </section>
+        <section data-markdown>
+          <textarea data-template>
+            ## Caveats
+            <p class="fragment">String = Symbol = (JS) String → <strong>Strings are immutable</strong>(# frozen_string_literal: true)</p>
+            <p class="fragment"><strong>Fixnum = Float</strong>= (JS) Numeric</p>
+            <p class="fragment"><strong>missing:</strong>Threads File Kernel.system fork etc.</p>
+          </textarea>
+        </section>
+        <section data-markdown>
+          <textarea data-template>
+            ## Production Ready
+            <p class="fragment"><strong>68K gzipped</strong> (52K using opal/mini)</p>
+            <p class="fragment">Deployed to production since 2012</p>
+            <p class="fragment">Has served millions of users.</p>
+          </textarea>
+        </section>
+
+        <section data-markdown data-background-color="#66BEF9">
+          <textarea data-template>
+            ## A pragmatic use case
+            Flexible admin user interfaces
+          </textarea>
+        </section>
+        <section data-markdown>
+          <textarea data-template>
+            ## But first...
+          </textarea>
+        </section>
+
+        <section data-markdown data-background="https://media.giphy.com/media/SURh9oaSsEZjO/giphy.gif">
+          <textarea data-template>
+            # Crash Course
+          </textarea>
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
+            ### $ shell
+            <pre><code data-trim data-noescape>
+              $ opal -e "puts 'hello worłd!'"
+              hello wrocławd!
+
+              $ opal -e "3.times{|n| p n}" -c > app.js
+              $ node app.js
+            </code></pre>
+          </textarea>
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
+            ### $ shell
+            <pre><code data-trim data-noescape>
+              $ opal -rostruct -e "OpenStruct.new" -Rserver
+              I, [2016-03-07T23:20:04.762798 #94300]  INFO -- : WEBrick 1.3.1
+              …snip… port=3000
+
+              $ open localhost:3000
+            </code></pre>
+          </textarea>
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
+            ### $ shell
+            <pre><code data-trim data-noescape>
+              $ ruby -ropal-jquery -S opal -ropal-jquery \
+              -e "Element[:body] << 'Hello!'"
+
+              $ ruby -ropal-browser -S opal -rbrowser \
+              -e 'DOM { h1 "Hello!" }.append_to($document.body)'
+            </code></pre>
+          </textarea>
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
+            ### config.ru
+            <pre><code data-trim data-noescape>
+              require 'opal'
+
+              run Opal::Server.new { |server|
+                # will use ./opal/app.rb
+                # as the main file:
+                server.append_path './opal'
+                server.main = 'app'
+              }
+            </code></pre>
+          </textarea>
+        </section>
+
+        <section data-background="https://media.giphy.com/media/A0TvAqfWhHQRy/giphy.gif">
+        </section>
+
+        <section data-markdown data-background-color="#66BEF9">
+          <textarea data-template>
+            ## A pragmatic use case
+            Flexible admin user interfaces
+          </textarea>
+        </section> -->
+
+				<section data-background-color="#000" data-markdown style="text-align: left;"  data-background="https://media.giphy.com/media/xstpzu2xZE0JG/giphy.gif" data-background-size="50%" data-background-position="right">
+					<textarea data-template>
+						# Demo time!
+					</textarea>
+				</section>
+
+        <!-- <section data-markdown>
+          <textarea data-template>
+            # Demo
+          </textarea>
+        </section> -->
+
+				<section data-background-color="#66BEF9" style="text-align: left;" data-markdown data-markdown data-background="https://media.giphy.com/media/3o6ZsTKlw7wmJrdJ4I/giphy.gif" data-background-size="50% 100%" data-background-position="right">
+					<textarea data-template>
+						# Thank you!
+
+						**@elia**
+
+						<small>opalrb.com</small>
+
+					</textarea>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				history: true,
+				controls: false,
+        transition: 'fade',
+        transitionSpeed: 'fast',
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>

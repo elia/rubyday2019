@@ -1,0 +1,84 @@
+/**
+ * The official Nebulab reveal.js theme.
+ *
+ * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(../../lib/font/eina/eina.css);
+
+
+// Override theme settings (see ../template/settings.scss)
+$mainFont: 'Eina03', sans-serif;
+$mainColor: #fff;
+$mainFontSize: 42px;
+$headingFont: 'Eina03', sans-serif;
+$headingFontWeight: 800;
+$headingColor: #fff;
+$headingTextShadow: none;
+$headingTextTransform: none;
+$backgroundColor: #171718;
+$linkColor: #66BEF9	;
+$linkColorHover: darken( $linkColor, 20% );
+$selectionBackgroundColor: #66BEF9;
+
+$heading1Size: 1.9em;
+$heading2Size: 1.2em;
+$heading3Size: 1.0em;
+$heading4Size: 0.8em;
+
+
+// Custom stuff -----------------
+body {
+	&:before {
+    // content: 'nebulab.it';
+		font-family: $mainFont;
+		font-size: 20px;
+		position: absolute;
+		bottom: 5.5%;
+		right: 5%;
+		font-weight: 600;
+		z-index: 1;
+		color: white;
+	}
+}
+
+.reveal {
+	&:before {
+		content: '';
+		position: absolute;
+		bottom: 2%;
+		left: 5%;
+    // background-image: url("http://nebulab.it/assets/images/public/logo_white.svg");
+		background-repeat: no-repeat;
+		width: 200px;
+		height: 80px;
+		z-index: 1;
+	}
+
+	&:after {
+    // content: 'Elia Schito @Nebulab - 3 Things You Didn’t Know About Ruby On The Frontend. | RubyDay 2019';
+		position: absolute;
+		top: 3%;
+		left: 5%;
+		font-size: 18px;
+		font-style: normal;
+	}
+
+	img {
+		border: 0 !important;
+		box-shadow: none !important;
+	}
+}
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
