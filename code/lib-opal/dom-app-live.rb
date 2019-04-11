@@ -3,7 +3,11 @@
 require 'opal'
 require 'native'
 
-case $$[:window][:location][:hash]
+$$.addEventListener(:hashchange) do
+  $$[:location].reload
+end
+
+case $$[:location][:hash]
 when '#0' then require 'dom-app/dom-app 0'
 when '#1' then require 'dom-app/dom-app 1'
 when '#2' then require 'dom-app/dom-app 2'
